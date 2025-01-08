@@ -1,0 +1,179 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {}
+
+.container-navbar {
+   background-color: cornsilk;
+   width: 100%;
+   hight: 15vh;
+}
+
+.ul-navbar {
+display: flex;
+height: 100px;
+justify-content: center;
+align-items: center;
+}
+
+.li-navbar {
+list-style-type: none;
+padding: 20px;
+margin: 5px;
+color: brown;
+font-size: 30px;
+}
+
+.a-navbar {
+    color: black;
+    text decoration:none;
+}
+.container-content {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.img-content {
+    width: 600px;
+    height: 450px;
+}
+
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: pink;
+    color: brown;
+  }
+  
+  header {
+    text-align: center;
+    background: cornsilk;
+    color: brown;
+    padding: 20px 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+
+/* Bagian Utama */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .resep-card {
+    background: cornsilk;
+    border: 1px solid pink;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    width: 300px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .resep-card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+  }
+  
+  .resep-card h2 {
+    font-size: 1.5rem;
+    color: brown;
+    margin: 10px 0;
+  }
+  
+  .resep-card p {
+    font-size: 1rem;
+    color: black;
+    padding: 0 10px;
+  }
+  
+  .btn-resep {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background: white;
+    color: brown;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+.btn-resep:hover {
+    background: white;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: #333;
+    color: brown;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }      
+  * Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background: white;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+.modal-content h2, .modal-content h3 {
+    color: brown;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+  }
+
+  .container-footer {
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.p-footer {
+    font-size: 15px;
+}
